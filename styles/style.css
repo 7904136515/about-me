@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+*, *::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-primary-color: #9A275A;
+  --clr-secondary-color: #8884FF;
+  --clr-text-color: #EDF5FC;
+  --clr-dark-color: #F46036;
+  --clr-white: #fff;
+  --clr-black: #000;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  background-color: var(--clr-text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.navbar .logo {
+  /* font-weight: 700; */
+  
+  font-size: 2rem;
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar .nav {
+  display: none;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: var(--clr-secondary-color);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  
+}
+
+header .img-circle {
+  max-width: 210px;
+    margin: auto;
+    display: block;
+    
+}
+
+.img-circle {
+  width: 170px;
+  height: 190px;
+  border-radius: 50%;
+  
+}
+
+h1 {
+  margin: 2rem auto;
+  text-align: center;
+  color: var(--clr-primary-color);
+  
+}
+
+p {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hero-cta {
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--clr-secondary-color);
+  color: var(--clr-white);
+  padding: 0.8rem 1.2rem;
+  font-size: 1.4rem;
+  border-radius: 80px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+h2.title{
+  color: var(--clr-dark-color);
+}
+
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+  text-decoration: underline;
+}
+
+
+
+.section-secondary span {
+  color: var(--clr-primary-color);
+}
+
+h3 {
+  margin: 1rem 0;
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.btn-secondary {
+  background-color: var(--clr-secondary-color);
+  color: var(--clr-white);
+  padding: 0.8rem 1.2rem;
+  margin: 0.8rem;
+  font-size: 1.4rem;
+  border-radius: 80px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.small-head {
+  margin: 2rem 1rem;
+  font-size: 1.3rem;
+}
+
+.btn-triary {
+  background-color: var(--clr-primary-color);
+  color: var(--clr-white);
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  border-radius: 80px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+h5 {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  color: var(--clr-dark-color);
+}
+
+.section-ordery span {
+  color: var(--clr-primary-color);
+}
+
+h4 {
+  text-align: center;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: larger;
+  color:var(--clr-dark-color);
+}
+
+.section-area {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contact-section label {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: var(--clr-primary-color);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid blueviolet;
+}
+
+input[type = "submit"] {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+}
+
+.nav.menu-btn {
+  display: block;
+}
+
+.nav { 
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background-color:var(--clr-black);
+  height: 100vh;
+  padding: 1rem;
+}
+
+.nav ul.menu-primary {
+  margin-top: 5rem;
+}
+
+.nav li a{
+  color: teal;
+  text-decoration: none;
+  display: block;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit{
+  float: right;
+  margin: 0.8rem;
+  cursor: pointer;
+}
+
+h6 {
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+  color: var(--clr-dark-color);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+ul h1 {
+  text-decoration: underline;
+}
+
+.testimonials-section p {
+  color:#000;
+  text-align: center;
+}
+
+.testimonials-section {
+  background-color: var(--clr-text-color);
+  color: white;
+}
+
+.testimonials-section li {
+  background-color: #1c2042;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 2rem 1rem;
+  width: 38%;
+  margin: 0 auto 5rem auto;
+  border-radius: 3rem;
+}
+
+.testimonials-section li img {
+  width: 15rem;
+}
+
+form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
