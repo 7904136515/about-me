@@ -21,13 +21,14 @@
 
           <ul class="menu-primary">
             <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    
     <script>
       const mobileBtn = document.getElementById
       ('mobile-menu');
@@ -44,12 +45,12 @@
       });
     </script>
     <!-- nav section end -->
+
         <!--header starts  -->
         <header class="container-hero">
           <img src="./assests/images/20190427180734_IMG_5391~3.JPG" alt="hero-image" class="img-circle" />
           
-          
-        </header>
+          </header>
           <h1>Hey I'm Antony Bharath</h1>
           <p>
             A front end focused web developer building the frontend of websites and web applications that leads to the success of overall product
@@ -59,6 +60,7 @@
           </div>
           <hr />
           <!-- header section end -->
+
           <main>
             <section class="section-primary">
               <h2 class="title">About me</h2>
@@ -79,6 +81,7 @@
               <p>
                 I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>Contact</span> me.
               </p>
+
               <div class="button-cta">
                 <a href="#" class="btn-secondary">Contact</a>
               </div>
@@ -96,44 +99,37 @@
               </div>
             </section>
             <hr />
-<!-- 
-<! -->
+
               <section class="section-ordery">
-                <h5 class="writing">Blogs</h5> 
-              <p>
-                <span>def</span> <span>form_valid</span> (self);
+                <div
+                class="container" id="blogs"><h5>Blogs</h5></div> 
+              <h3><span>def</span> <span>form_valid</span> (self);</h3>
+                
                       <p>
                         """ Add author and associated blog to form data before setting it as valid <span>(so it is solved to model</span>"""
                       
                         #Add logged-in user as author of comment
                       
                         <span>form.instance.author = self.request.user</span>
-                     
                         form.instance.blog=get_object_or_404 <span> (Blog.pk = self.kwargs['pk']</span>
-                        
-                          return
-                       
-                          <span>super</span> (BlogCommentCreate, self).form_valid(form)
-                        
-              </p>
+                        return
+                        <span>super</span> (BlogCommentCreate, self).form_valid(form)
+                  </p>
             </section>
-            <hr /> 
-
-            <section class="section-tresary">
-              <h6 class="third-head">Projects</h6>
+            
+          <section class="section-tresary">
+              <h6 class="third-head"id="projects">Projects</h6>
               <p>
                 Here you will find some of the projects that I created with its own case study
               </p>
               <div class="testimonials-section">
                 <div class="container-one">
-                 
                     <h1>Order summary component challenge</h1>
                     <p>
                       It is a platform that I created where people can join for Music to enjoy with millions of songs with annual plan
                     </p>
                     <ul>
                     <li>
-                      
                       <img src="./assests/images/68747470733a2f2f692e6962622e636f2f446771763932712f6d6f62696c652e706e67.png" alt="Order">
                     </li>
                     <h1>Fylo data storage component</h1>
@@ -155,14 +151,11 @@
                     </li>
                   </ul>
                   <hr />
-                  
-                
-                
-              </div>
+                  </div>
             </section>
 
             <section class="contact-section">
-              <div class="container">
+              <div class="container" id="contact">
                 <div class="left-col">
                     <h4 class="section-area">Contact</h4>
                     <p>
@@ -186,18 +179,5 @@
               </div>
             </section>
           </main>
-       
-         
-      <footer class="footer">
-        <div class="main-footer">
-          <div class="social links">
-            <ul>
-              
-            </ul>
-          </div>
-        </div>
-      </footer>
-    
-  
-</body>
-</html>
+      </body>
+    </html>
